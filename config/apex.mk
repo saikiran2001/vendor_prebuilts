@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
     com.google.android.telephony \
     com.google.android.tzdata2
 
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += vendor/prebuilts/sepolicy/private
+
 # Sysconfig
 PRODUCT_PACKAGES += \
     google-rollback-package-whitelist \
