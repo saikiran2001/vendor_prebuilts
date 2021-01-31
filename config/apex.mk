@@ -42,3 +42,8 @@ PRODUCT_PACKAGES += \
     com.google.android.sdkext \
     com.google.android.telephony \
     com.google.android.tzdata2
+
+# Sysconfig
+PRODUCT_PACKAGES += \
+    google-rollback-package-whitelist \
+    google-staged-installer-whitelist
